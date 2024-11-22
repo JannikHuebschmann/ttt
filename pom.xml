@@ -21,6 +21,12 @@
             <scope>
                 compile
             </scope>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>tic-tac-toe</artifactId>
+            <version>1.0</version>
         </dependency>
     </dependencies>
 

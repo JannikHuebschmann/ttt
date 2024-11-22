@@ -1,8 +1,8 @@
 package de.guidecom.arena;
 
 
+import tictactoe.TicTacToe;
 import tictactoe.spieler.*;
-import tictactoe.spieler.beispiel.ReinforcementSpieler;
 import tictactoe.spieler.beispiel.ReinforcementSpielerLeer;
 import tictactoe.spieler.beispiel.Zufallsspieler;
 
@@ -11,7 +11,7 @@ public class Wettkampf {
 
 	public static void main(String[] args) {
 		ISpieler spieler1 = new Zufallsspieler("Zufall");
-		
+
 		//Fügen Sie nachfolgend Ihren eigenen lernenden Spieler ein.
 		//Dieser muss die Schnittstelle ILernenderSpieler implementieren
 		//Der hier nachfolgende Spieler ist nur ein (nicht funktionierendes) Muster

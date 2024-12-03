@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="511827cf-ceb7-4ba5-b52f-f1957790f9c5" name="Changes" comment="" />
+    <list default="true" id="511827cf-ceb7-4ba5-b52f-f1957790f9c5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ttt/arena/Wettkampf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ttt/log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ttt/spieler/NNSpieler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ttt/spieler/ReinforcementSpieler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ttt/spieler/SpielHistoryEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/guidecom/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ttt/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/guidecom/arena/Wettkampf.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2pCopvdkwCNCQ0J3ghkgfNNLLLo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -24,18 +34,57 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Merlin\IdeaProjects\ttt\src\main\java\ttt" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ttt.spieler" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ttt.Main" />
+      <module name="TTT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ttt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
       </set>
     </attachedChunks>
   </component>
@@ -48,10 +97,26 @@
       <option name="presentableId" value="Default" />
       <updated>1732279608420</updated>
       <workItem from="1732279609564" duration="4000" />
+      <workItem from="1732287569521" duration="2068000" />
+      <workItem from="1732291159083" duration="1244000" />
+      <workItem from="1733246103171" duration="1659000" />
+      <workItem from="1733248325898" duration="2409000" />
+      <workItem from="1733251977677" duration="5189000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ttt/arena/Wettkampf.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

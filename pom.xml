@@ -16,17 +16,18 @@
     <dependencies>
         <dependency>
             <groupId>com.github.neuroph</groupId>
-            <artifactId>Neuroph</artifactId>
+            <artifactId>neuroph-core</artifactId>
             <version>2.98</version>
-            <scope>
-                compile
-            </scope>
-            <type>pom</type>
         </dependency>
         <dependency>
             <groupId>com.example</groupId>
             <artifactId>tic-tac-toe</artifactId>
             <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>2.0.12</version>
         </dependency>
     </dependencies>
 

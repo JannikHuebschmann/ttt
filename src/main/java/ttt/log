@@ -1,0 +1,9 @@
+
+10k Durchläufe
+
+mlp = new MultiLayerPerceptron(Arrays.asList(27, 27, 27, 9), TransferFunctionType.SIGMOID);
+winrate 83,8%
+
+mlp = new MultiLayerPerceptron(Arrays.asList(27, 56, 56, 18, 9), TransferFunctionType.SIGMOID);
+winrate 88.6%
+
